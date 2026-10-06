@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FCF8FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manipulación de Intents y Permisos"
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_youtube"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Abrir YouTube (Web)"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="#6750A4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_llamar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Realizar Llamada Directa"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="#6750A4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Enviar Mensaje SMS"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="#6750A4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Ver Mapa de Puebla"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="#6750A4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_camara"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Abrir Cámara"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        app:backgroundTint="#6750A4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_WhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Enviar WhatsApp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="32dp"
+        app:backgroundTint="#6750A4" />
+</LinearLayout>
